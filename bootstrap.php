@@ -10,11 +10,8 @@ $isDevMode = true;
 // the connection configuration
 $dbParams = array(
     'driver'   => 'pdo_mysql',
-    /*
-     * MAMP users
-     * 'host'     => '127.0.0.1',
-     * 'port'     => 8889,
-     */
+    'host'     => '127.0.0.1',
+    'port'     => 3306,
     'user'     => 'root',
     'password' => '',
     'dbname'   => 'dwwm_salutem',
