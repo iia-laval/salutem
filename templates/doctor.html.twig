@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ doctor.fullName }}{% endblock %}
+
+{% block content %}
+    <h1>{{ doctor.fullName }}</h1>
+    <p>{{ doctor.description }}</p>
+{% endblock %}
