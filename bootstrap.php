@@ -17,5 +17,5 @@ $dbParams = array(
     'dbname'   => 'dwwm_salutem',
 );
 
-$config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode, null, null, false); // Replace with createAttributeMetadataConfiguration to use PHP8 attributes
+$config = Setup::createAttributeMetadataConfiguration($paths, $isDevMode, null, null, false); // Replace with createAttributeMetadataConfiguration to use PHP8 attributes
 $entityManager = EntityManager::create($dbParams, $config);
